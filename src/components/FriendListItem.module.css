@@ -1,0 +1,25 @@
+.friend-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.friend-item-avatar,
+.friend-item-name,
+.friend-item-status {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.friend-item-status.online {
+    font-size: 16px;
+    color: green;
+    font-weight: 600;
+
+}
+
+.friend-item-status.offline {
+    font-size: 16px;
+    color: red;
+    font-weight: 600;
+}
